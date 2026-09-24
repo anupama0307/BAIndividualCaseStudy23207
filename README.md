@@ -156,35 +156,34 @@ Current shape:
 10,000 rows × 49 columns
 ```
 
-The raw working file contains the original job-listing fields together
-with the project target.
+The raw working file contains the original job-listing fields together with the project target.
 
 Important columns include:
 
-  Column                   Description
-  ------------------------ -------------------------------------------
-  `id`                     Job/listing identifier
-  `title`                  Job title
-  `companyName`            Company name
-  `location`               Job location
-  `description`            Job description
-  `applicationsCount`      LinkedIn application-count category/value
-  `experienceLevel`        Required experience level
-  `contractType`           Contract/employment type
-  `jobFunction`            Job function
-  `sector`                 Sector
-  `companySize`            Company-size category
-  `companyEmployeeCount`   Estimated company employee count
-  `companyFollowerCount`   Company follower count
-  `companyFoundedYear`     Company founding year
-  `companyType`            Company type
-  `companyIndustries`      Company industries
-  `salary`                 Salary information where available
-  `salaryMin`              Minimum salary where available
-  `salaryMax`              Maximum salary where available
-  `publishedAt`            Publication timestamp
-  `postedTime`             Posted-time information
-  `high_performing`        Binary target
+| Column | Description |
+|---|---|
+| `id` | Job-listing identifier |
+| `title` | Job title |
+| `companyName` | Company name |
+| `location` | Job location |
+| `description` | Job description |
+| `applicationsCount` | LinkedIn application-count category/value |
+| `experienceLevel` | Required experience level |
+| `contractType` | Contract/employment type |
+| `jobFunction` | Job function |
+| `sector` | Sector |
+| `companySize` | Company-size category |
+| `companyEmployeeCount` | Estimated company employee count |
+| `companyFollowerCount` | Company follower count |
+| `companyFoundedYear` | Company founding year |
+| `companyType` | Company type |
+| `companyIndustries` | Company industries |
+| `salary` | Salary information where available |
+| `salaryMin` | Minimum salary where available |
+| `salaryMax` | Maximum salary where available |
+| `publishedAt` | Publication timestamp |
+| `postedTime` | Posted-time information |
+| `high_performing` | Binary target |
 ------------------------------------------------------------------------
 
 # 4. Target Variable
